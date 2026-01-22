@@ -1,3 +1,7 @@
-export default function home() {
-  return <h1>Hello World From ASB</h1>
+export default function Page() {
+  return (
+    <main style={{ padding: "40px", fontSize: "24px" }}>
+      Hello world from ASB
+    </main>
+  );
 }
